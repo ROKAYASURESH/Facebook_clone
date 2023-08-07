@@ -30,13 +30,62 @@
 <!-- NAV END -->
 
 <div class="container">
+    <!-- LEFT SIDEBAR -->
+    <div class="skr">
     <div class="left-sidebar">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat hic dolorum adipisci dolores rem nulla ad nam explicabo, pariatur tenetur tempore cupiditate minus. Non cupiditate fuga nemo sapiente expedita quia.
+        <div class="imp-links">
+            <div class="sp"><a href="#" ><img src="images/watch.png" alt="">watch</a></div>
+            <div class="sp"> <a href="#" ><img src="images/friends.png" alt="">friends</a></div>
+            <a href="#"><img src="images/news.png" alt="">latest News</a>
+            <a href="#"><img src="images/group.png" alt="">group</a>
+            <a href="#"><img src="images/watch.png" alt="">watch</a>
+            <a href="#"><img src="images/friends.png" alt="">friends</a>
+            <a href="#"><img src="images/news.png" alt="">latest News</a>
+            <a href="#"><img src="images/group.png" alt="">group</a>
+           
+        </div>
+        <div class="btn">
+            <a href="#" onclick="abc()" class="more-btn">See More..</a>
+        </div>
+        <hr>
+    
+        
+
+        <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="images/shortcut-3.png" alt="">Online Education &nbsp; &nbsp; </a>
+            <a href="#"><img src="images/shortcut-1.png" alt="">Food Lover</a>
+            <a href="#"><img src="images/shortcut-4.png" alt="">Social Media</a>
+            <a href="#"><img src="images/shortcut-2.png" alt="">Popular Tiktok video</a>
+        </div>
     </div>
-    <div class="main-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laborum libero ut repellat deserunt ipsum recusandae est eveniet autem? Expedita nihil ducimus minima in saepe cum delectus nemo accusantium fuga?</div>
-    <div class="right-sidebar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat, deleniti quis ratione sint libero incidunt voluptas ea provident expedita magni et saepe sequi. Veritatis debitis modi dolores perspiciatis dolor.</div>
+</div>
+    <!-- MAIN CONTENT -->
+    <div class="main-content" style="padding: 10px;">
+
+    </div>
+    <!-- RIGHT SIDEBAR -->
+    <div class="right-sidebar">
+
+    </div>
 
 </div>
+<script>
+    function abc()
+    {
+        if(document.querySelector('.imp-links').style.height=='400px')
+        {
+            document.querySelector('.imp-links').style.height='200px'
+            document.querySelector('.more-btn').innerHTML="See More.."
 
+        }
+        else
+        {
+            document.querySelector('.imp-links').style.height='400px'
+            document.querySelector('.more-btn').innerHTML="See Less.."
+
+        }
+    }
+</script>
 </body>
 </html>
