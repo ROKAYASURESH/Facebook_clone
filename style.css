@@ -124,7 +124,7 @@ nav{
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #626262;
     width: fit-content;
 }
@@ -145,6 +145,7 @@ nav{
 }
 .left-sidebar .imp-links .sp:hover{
     background-color: #cccccc ;
+    border-radius: 10px;
 }
 .shortcut-links a img{
     width: 40px;
