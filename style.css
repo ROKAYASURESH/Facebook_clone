@@ -94,6 +94,20 @@ nav{
     padding: 0px 4px;
 }
 
+/* Left Side Scrollbar start */
+.left-sidebar::-webkit-scrollbar{
+    width: 6px;
+}
+.left-sidebar::-webkit-scrollbar-thumb{
+    background-color:white;
+}
+.left-sidebar:hover::-webkit-scrollbar-thumb{
+    background-color: #888787;
+}
+.left-sidebar:hover::-webkit-scrollbar-track {
+    background-color: #cccccc ; 
+  }
+/* Left Side Scrollbar end */
 
 .right-sidebar{
     flex-basis:25% ;
