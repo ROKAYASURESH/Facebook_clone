@@ -99,7 +99,7 @@
 
         <div class="sidebar-title">
             <h4 class="skr">Advertisment</h4>
-            <a href="#"><i class="fa-solid fa-xmark" style="font-size: 20px;"  class="skr"></i></a>
+            <a href="#"><i class="fa-solid fa-xmark" style="font-size: 20px;" onclick="ab()" class="skr"></i></a>
         </div>
    
      
@@ -136,7 +136,20 @@
             document.querySelector('.more-btn').innerHTML="See  Less.."
         }
     }
-    
+    function ab()
+    {
+        if(document.querySelector('.sidebar-ads').style.display=='none')
+        {
+            document.querySelector('.sidebar-ads').style.display='block'
+        }
+        else
+        {
+            document.querySelector('.sidebar-ads').style.display='none'
+            document.querySelector('.skr').innerHTML="  "
+
+
+        }
+    }
 </script>
 </body>
 </html>
