@@ -85,28 +85,37 @@ nav{
     padding: 13px 5%;
 }
 .left-sidebar{
-   
+    background-color: #fff;
+   border-radius: 10px;
     flex-basis:25% ;
     position: fixed;
     top:75px;
     align-self: flex-start;
     overflow: auto;
     height: 87vh;
-    padding: 0px 4px;
+    padding: 0px 10px;
 }
-
+.right-sidebar::-webkit-scrollbar {
+   margin-left: -6px;
+}
 /* Left Side Scrollbar start */
-.left-sidebar::-webkit-scrollbar{
+.left-sidebar::-webkit-scrollbar, .right-sidebar::-webkit-scrollbar{
     width: 6px;
 }
-.left-sidebar::-webkit-scrollbar-thumb{
-    background-color:white;
+.left-sidebar::-webkit-scrollbar-thumb, .right-sidebar::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 50px;
+
+
 }
-.left-sidebar:hover::-webkit-scrollbar-thumb{
+.left-sidebar:hover::-webkit-scrollbar-thumb, .right-sidebar:hover::-webkit-scrollbar-thumb{
     background-color: #888787;
+    border-radius: 50px;
 }
-.left-sidebar:hover::-webkit-scrollbar-track {
-    background-color: #cccccc ; 
+.left-sidebar:hover::-webkit-scrollbar-track, .right-sidebar:hover::-webkit-scrollbar-track{
+    background-color: #fff ; 
+    border-top-right-radius: 100px;
+
   }
 /* Left Side Scrollbar end */
 
@@ -114,12 +123,14 @@ nav{
 .right-sidebar{
     flex-basis:25% ;
     position: sticky;
-    top:70px;
+    top:75px;
     align-self: flex-start;
     background-color: #fff;
     padding: 20px;
     border-radius: 4px ;
     color: #626262;
+    overflow: auto;
+    height: 87vh;
 }
 .main-conten{
     flex-basis: 47%;
@@ -172,7 +183,7 @@ nav{
     margin-bottom: 18px;
 
 }
-.sright-sideba h4{
+.right-sideba h4{
     font-weight: 600;
     font-size: 16px;
 
