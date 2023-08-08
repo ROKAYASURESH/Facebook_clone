@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook clone</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6e065f199.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
@@ -63,30 +64,79 @@
 </div>
     <!-- MAIN CONTENT -->
     <div class="main-content" style="padding: 10px;">
-
     </div>
     <!-- RIGHT SIDEBAR -->
     <div class="right-sidebar">
+        <div class="sidebar-title">
+            <h4>Event</h4>
+            <a href="#">See All</a>
 
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>27</h3>
+                <span>january</span>
+            </div>
+            <div class="right-event">
+                <h4>Social media</h4>
+                <p><i class="fa-solid fa-location-dot"></i> koteshwor ktm 32</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>26</h3>
+                <span>january</span>
+            </div>
+            <div class="right-event">
+                <h4>Social media</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Koteshwor 32 ktm</p>
+                <a href="#">More info</a>
+            </div>
+        </div>
+
+        <div class="sidebar-title">
+            <h4 class="skr">Advertisment</h4>
+            <a href="#"><i class="fa-solid fa-xmark" style="font-size: 20px;"  class="skr"></i></a>
+        </div>
+   
+     
+
+        <img src="images/advertisement.png" class="sidebar-ads" alt="">
+ 
+        <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">hide chat</a>
+        </div>
+
+        <div class="online-list">
+            <div class="online">
+                <img src="images/member-1.png" alt="">
+            </div>
+            <p>Alison Mina</p>
+        </div>
     </div>
+    
 
 </div>
 <script>
     function abc()
     {
-        if(document.querySelector('.imp-links').style.height=='250px')
+        if(document.querySelector('.imp-links').style.height=='400px')
         {
-            document.querySelector('.imp-links').style.height='400px'
+            document.querySelector('.imp-links').style.height='250px'
             document.querySelector('.more-btn').innerHTML="See More.."
-
+            
         }
         else
         {
-            document.querySelector('.imp-links').style.height='250px'
-            document.querySelector('.more-btn').innerHTML="See Less.."
-
+            document.querySelector('.imp-links').style.height='400px'
+            document.querySelector('.more-btn').innerHTML="See  Less.."
         }
     }
+    
 </script>
 </body>
 </html>
