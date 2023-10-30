@@ -75,7 +75,7 @@ If you'd like to contribute to the Facebook Clone project, please follow these s
 Enjoy exploring and customizing the Facebook Clone project. If you have any questions or need assistance, feel free to reach out to us. I hope this project helps you in creating impressive Facebook_Clone !
 
 
+![Facebook_Clone ](https://github.com/ROKAYASURESH/Facebook_clone/assets/127000485/35412c0b-081f-4377-acb9-8e4e7a14585e)
 
-![Facebook Clone Screenshot](screenshot.png)
 ```
 
