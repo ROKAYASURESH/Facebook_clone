@@ -145,7 +145,7 @@ nav{
     border-radius: 4px ;
     color: #626262;
     overflow: auto;
-    height: 87vh;
+    height: 86vh;
 }
 .main-conten{
     flex-basis: 47%;
@@ -271,16 +271,26 @@ nav{
     bottom: 4px;
 }
 
-/* Main Contant */
+/* Main Contant  start*/
+.main-content{
+    margin-left: 200px;
+}
 .story-gallery{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-
+}
+.story-img img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 .story{
-    flex-basis: 18%;
-    padding-top: 32%;
+    /* flex-basis: 100%; */
+    /* padding-top: 32%; */
+    height: 300px;
+    width: 170px;
+    margin: 20px;
     position: relative;
     background-image: url(images/status-1.png);
     background-position: center;
@@ -288,25 +298,69 @@ nav{
     border-radius: 10px;
 
 }
-.story img{
+.story1{
+    height: 300px;
+    width: 170px;
+    margin: 20px;
+    position: relative;
+    background-image: url(images/photo1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.story2{
+    height: 300px;
+    width: 170px;
+    margin: 20px;
+    position: relative;
+    background-image: url(images/photo2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.story1 img, .story2 img, .story img{
     position: absolute;
     width: 45px;
     border-radius: 50%;
     top: 10px;
     left: 10px;
-    border-radius: 5px solid #626262;
+    border: 2px solid #f9f1f1;
     background-color: rebeccapurple;
 
 }
-.story p{
-position: absolute;
-bottom: 10px;
-width: 100%;
-height: 3000px;
-text-align: center;
-color: #fff;
-font-size: 13px;
+
+.story-content{
+    margin-left: 20px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(174, 168, 168);
+    margin-top:20px ;
 }
+.profile-image{
+    display: flex;
+    padding: 4px 10px;
+}
+.story-proiles img{
+    width: 60px;
+    border: 2px solid white;
+    outline: 2px solid blue;
+    border-radius: 50%;
+}
+.profile-name p{
+    margin-left: 16px;
+    font-size: 17px;
+    color: #333232;
+    margin-top: 7px;
+}
+.profile-name p span{
+    color: black;
+    font-weight: bold;
+}
+
+/* Main Contant  end*/
+
 /* ...................... */
 .user-profile{
     display: flex;
