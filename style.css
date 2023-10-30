@@ -358,7 +358,36 @@ nav{
     color: black;
     font-weight: bold;
 }
-
+.story-content-profile img{
+    width: 100%;
+}
+.seemore img{
+    width: 30px;
+    margin:0 30px;
+    margin-top: 20px;
+}
+.search{
+    width: 30px;
+    margin:0 0px;
+    margin-top: 10px;
+}
+.like-comment-share{
+    display: flex;
+    justify-content: space-between  ;
+    margin: 4px 20px;
+}
+.commons{
+    display: flex;
+    align-items: center;
+}
+.commons p{
+    font-size: 20px;
+    padding: 10px;
+}
+.commons img{
+    width: 30px;
+    padding: 10px 0;
+}
 /* Main Contant  end*/
 
 /* ...................... */
