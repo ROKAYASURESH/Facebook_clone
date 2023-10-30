@@ -20,10 +20,10 @@ Facebook Clone is a non-responsive project that closely mimics the appearance an
 - Use of HTML and CSS for styling and layout.
 - Basic interactivity through JavaScript for buttons and posts.
 - Customized styles and graphics that resemble Facebook's design.
-- 
+
 ## Demo
 
-You can view the live demo of this project [here](#).
+You can view the live demo of this project [here](https://github.com/ROKAYASURESH/Facebook_clone/assets/127000485/d3ab9599-2d64-4a93-9eed-5068fe69a544).
 
 ## Usage
 
@@ -78,4 +78,5 @@ Enjoy exploring and customizing the Facebook Clone project. If you have any ques
 ![Facebook_Clone ](https://github.com/ROKAYASURESH/Facebook_clone/assets/127000485/35412c0b-081f-4377-acb9-8e4e7a14585e)
 
 ```
-
+Gmail: sureshrokaya761@gmail.com
+GitHub: https://github.com/ROKAYASURESH
